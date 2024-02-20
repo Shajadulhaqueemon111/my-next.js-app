@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Fuzzy+Bubbles&display=swap');
+ 
+ .fontStyle{
+    font-family: "Anta", sans-serif; /* Fallback to Arial or sans-serif if Nico Moji fails to load */
+    src: url('./NicoMoji-Regular.ttf') format('truetype');
+    font-size: 28px;
+    font-weight: 400px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+@font-face {
+    font-family: 'Nico Moji';
+    
+    font-weight: normal;
+    font-style: normal;
+    src: url('./NicoMoji-Regular.ttf') format('truetype');
+    font-size: 28px;
+    font-weight: 400px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
